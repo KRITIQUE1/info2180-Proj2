@@ -36,8 +36,8 @@ h1 {
 
 /* CLASS WILL BE APPLIED TO ALL 15 OIECES */
 .puzzlepiece {
-	background-image: url(http://static.giantbomb.com/uploads/original/0/775/192018-paper_luigi.jpg);
-	border: 2px solid black;
+	background-image: url(http://freedesignfile.com/upload/2016/04/Golden-lion-vector.jpg);
+	border: 5px solid black;
 	height: 96px;
 	line-height: 96px;
 	position: absolute;

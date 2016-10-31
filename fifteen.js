@@ -21,14 +21,16 @@ window.onload = function ()
 		{
 			if (checkCanMove(parseInt(this.innerHTML)))
 			{
-				this.style.border = "2px solid red";
+				this.style.border = "5px solid red";
 				this.style.color = "#006600";
+				this.style.textDecoration = "underline";
 			}
 		};
 		div[i].onmouseout = function()
 		{
-			this.style.border = "2px solid red";
+			this.style.border = "5px solid black";
 			this.style.color = "#000000";
+			this.style.textDecoration = "none";
 		};
 
 		div[i].onclick = function()
@@ -48,7 +50,7 @@ window.onload = function ()
 	whiteSpace2 = '300px';
 	whiteSpace1 = '300px';
 
-	var shuffle = document.getElementById('shuffle');
+	var shuffle = document.getElementById('shufflebutton');
 	shuffle.onclick = function()
 	{
 
